@@ -1,0 +1,7 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "2.*",
+        "setasign/fpdi-fpdf": "2.0",
+        "setasign/fpdi-protection": "^2.0"
+    }
+}
