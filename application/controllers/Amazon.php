@@ -12,7 +12,7 @@ class Amazon extends CI_Controller
     {
         parent::__construct();
         $this->bucket = "your_bucket" ;
-        $this->load->library("CloudStorage", NULL, "s3");
+        $this->load->library("S3", NULL, "s3");
         $this->load->helper("form");
     }
     public function upload_file(){
